@@ -1,13 +1,13 @@
-# requirement
+# CVPR2023-ABAW5 Emotional Reaction Intensity (ERI) Estimation Challenge
+
+## 1、Requirement
 
 ```
 pip install -r requirements.txt
 
 ```
 
-
-
-# train the model
+## 2、Training
 ```shell
 python main.py --gpus 1 \
             --auto_lr_find \
